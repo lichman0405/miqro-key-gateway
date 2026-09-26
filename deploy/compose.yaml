@@ -9,7 +9,7 @@ services:
     # "17.6-alpine" - the label was stale; the image content is the 17.11 build.
     # The postgres-image-update workflow bumps this digest when docker-library
     # rebuilds the alpine image; update label/comment to match then.
-    image: postgres:17.11-alpine@sha256:18cfe3ef5e6815560c98237d6216d1e5119702fb0f3894c8785dd58b8bbe5d73
+    image: postgres:17.11-alpine@sha256:b0f9560a2de083e2cc7382e75f808c7381a32852a7ec49117deedb300e552b24
     container_name: miqrokey-postgres
     restart: unless-stopped
     environment:
